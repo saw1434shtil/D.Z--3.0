@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height: 400px;
+    background: url(marek.jpg) bottom no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: rgb(223, 218, 218);
+    font-size: 4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.news {
+    background-color: rgb(228, 222, 222);
+    padding: 50px 0 32px;
+}
+
+article {
+    width: 768px;
+    margin: 0 auto 32px;
+    padding: 6px 15px;
+    border-bottom: 1px solid rgb(17, 36, 36);
+}
+
+article a {
+    color: black;
+    text-decoration: none;
+}
+
+article a:hover {
+    color: rgba(247, 82, 131, 0.945);
+}
+
+article h2 {
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 5px;
+}
+
+.article-meta {
+    color: rgb(143, 123, 161);
+}
+
+article img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+footer {
+    padding: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+footer .links {
+    margin-bottom: 50px;
+}
+
+footer .links >a {
+    color: rgb(103, 83, 184);
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.copyright {
+    color: rgb(149, 171, 243);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.news:nth-child(odd) {
+    background-color: rgb(165, 143, 143);
+}
+
+h2:before {
+    content: 'New!';
+}
