@@ -83,6 +83,6 @@ footer .links >a {
     background-color: rgb(165, 143, 143);
 }
 
-h2:before {
+.heading:before {
     content: 'New!';
 }
